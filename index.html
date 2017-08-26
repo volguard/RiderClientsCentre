@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="ClientSite.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+		<div class="jumbotron text-center" id="content0" style="display:none">
+			<h1>Witaj w centrum klienta! Wybierz, gdzie chcesz się udać:</h1>
+		</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4" id="content1" style="display:none">
+			<h2>Przejdź do bloga.</h2>
+			<p>Na naszym blogu pojawiają się nowe informacje z szeroko pojętej dziedziny finansów</p>
+			<a href="" display="block" class="btn">Strona w budowie</a>
+		</div>
+		<div class="col-sm-4" id="content2" style="display:none">
+			<h2>Nasze oferty.</h2>
+			<p>Jeżeli po przejrzeniu naszych informacji oraz po konsultacji z naszymi przedstawicielami
+			podjęli Państwo decyzję, mogą Państwo odnaleźć ofertę na naszej stronie ofertowej:</p>
+			<a href="http://promorider.wixsite.com/ridermiddle" display="block" class="btn"/>Przejdź =></a>
+		</div>
+		<div class="col-sm-4" id="content3" style="display:none">
+			<h2>Strona na Facebook-u.</h2>
+			<p>Bądź na bierząco:</p>
+			<a href="https://www.facebook.com/RiderBankiUbezpieczenia/" class="btn">Przejdź=> </a>
+		</div>
+	</div>
+</div>
+<div style="position:relative">
+<div style="position:absolute; top:20px;">
+<div class="container">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="btn col-md-4 fadeContent" id="slideComparer" style="text-align:center; display:none">Porównywarka osobistych kont bankowych</div>		
+	</div> 
+	<div class="row">
+		<div class="col-md-12" id="distirbutor_comparision1_0_target" style="display:none"></div>
+	</div>
+</div>
+</div>
+</div>
+	
+<script id="distributorComparisionWidget_script" src="http://ridermiddleman97.oferty-kredytowe.pl/j/widgets/distributor_comparision_widget.js"></script>
+<script>var idDistributor = 31469; distributor_comparision_widget("distirbutor_comparision1_0_target", idDistributor, 1).render();</script>
+<script type="text/javascript">
+    var fcwidget_distributor_id = 31469; 
+    var fc = document.createElement('script'); fc.type = 'text/javascript';
+    fc.src = '//direct.money.pl/j/fast_contact_widget.js?tst=".time()."';
+    document.body.appendChild(fc);
+</script>
+<script type="text/javascript">
+	$(document).ready( function(){
+$("#content0").fadeIn(2000);
+$("#content1").fadeIn(2000);
+$("#content2").fadeIn(4000);
+$("#content3").fadeIn(6000);
+$(".fadeContent").fadeIn(6000);
+});
+$("#slideComparer").click( function(){
+$("#distirbutor_comparision1_0_target").slideToggle();
+});
+</script>
+</body>
+</html>

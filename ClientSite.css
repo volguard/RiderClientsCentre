@@ -1,0 +1,16 @@
+﻿body{
+font-family:Verdana;
+color:#22a1ff;
+background-color:#ffffff;
+}
+
+div.jumbotron.text-center{
+background-color:#0000af;
+}
+.btn{
+background-color:blue;
+border-color:black;
+}
+.witdthBase{
+width:100px;
+}
