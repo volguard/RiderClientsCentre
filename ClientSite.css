@@ -1,6 +1,6 @@
 ﻿body{
 font-family:Verdana;
-color:#0251ff;
+color:#aaaaff;
 background-color:#ffffff;
 }
 
@@ -9,6 +9,7 @@ background-color:#0000af;
 background-image: url("stockFotoRider2.jpg");
 background-attachment:fixed;
 background-size:cover;
+color:#0251ff;
 }
 .btn{
 background-color:blue;
