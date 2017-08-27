@@ -1,16 +1,17 @@
 ﻿body{
 font-family:Verdana;
-color:#22a1ff;
+color:#0251ff;
 background-color:#ffffff;
 }
 
 div.jumbotron.text-center{
 background-color:#0000af;
+background-image: url("stockFotoRider2.jpg");
+background-attachment:fixed;
+background-size:cover;
 }
 .btn{
 background-color:blue;
 border-color:black;
 }
-.witdthBase{
-width:100px;
-}
+/**/
